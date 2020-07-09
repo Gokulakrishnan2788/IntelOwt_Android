@@ -3,12 +3,12 @@
 
 ## Run samples with Android Studio
 
-In order to run sample project in the release package, dependency files need to be imported first.
+In order to run IntelWebRTC_Android project in the release package, dependency files need to be imported first.
 
     1. Open Android Studio and open the sample project by 'Open File or Project'.
     2. Import .aar dependencies by creating a new module 'Import .JAR/.AAR Package'.
-    3. Import libwebrtc.jar dependency by copying it into directory src/sample/utils/libs
-    4. Import .so dependencies by copying them into directory src/sample/utils/src/main/jniLibs.
+    3. Import libwebrtc.jar dependency by copying it into directory intelowtandroid/owt/utils/libs
+    4. Import .so dependencies by copying them into directory intelowtandroid/owt/utils/src/main/jniLibs.
 
 ### SSL/TLS
 
