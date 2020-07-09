@@ -1,0 +1,4 @@
+include ':intelowtandroid:owt:p2p'
+include ':intelowtandroid:owt:conference'
+include ':intelowtandroid:owt:utils'
+

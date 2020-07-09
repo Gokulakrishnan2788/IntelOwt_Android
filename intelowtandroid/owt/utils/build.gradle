@@ -1,0 +1,31 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation files('/Users/gokulakrishnanmani/AndroidStudioProjects/IntelOwt_Android/libs/owt_base.aar')
+    implementation files('/Users/gokulakrishnanmani/AndroidStudioProjects/IntelOwt_Android/libs/owt_conference.aar')
+    implementation files('/Users/gokulakrishnanmani/AndroidStudioProjects/IntelOwt_Android/libs/webrtc/libwebrtc.jar')
+    implementation files('/Users/gokulakrishnanmani/AndroidStudioProjects/IntelOwt_Android/libs/owt_p2p.aar')
+}

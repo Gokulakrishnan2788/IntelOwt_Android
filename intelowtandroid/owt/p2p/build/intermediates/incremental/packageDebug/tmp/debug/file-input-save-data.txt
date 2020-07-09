@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Thu Jul 09 21:39:24 IST 2020
+1.base=/Users/gokulakrishnanmani/AndroidStudioProjects/IntelOwt_Android/intelowtandroid/owt/p2p/build/intermediates/transforms/dexMerger/debug/0
+2.path=lib/armeabi-v7a/libjingle_peerconnection_so.so
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=/Users/gokulakrishnanmani/AndroidStudioProjects/IntelOwt_Android/intelowtandroid/owt/p2p/build/intermediates/transforms/mergeJniLibs/debug/0
+3.set=NATIVE_RESOURCE
+2.set=NATIVE_RESOURCE
+1.baseType=DIRECTORY
+3.path=lib/arm64-v8a/libjingle_peerconnection_so.so
+count=4
+1.set=DEX
+0.path=lib/x86/libjingle_peerconnection_so.so
+3.base=/Users/gokulakrishnanmani/AndroidStudioProjects/IntelOwt_Android/intelowtandroid/owt/p2p/build/intermediates/transforms/mergeJniLibs/debug/0
+0.set=NATIVE_RESOURCE
+0.base=/Users/gokulakrishnanmani/AndroidStudioProjects/IntelOwt_Android/intelowtandroid/owt/p2p/build/intermediates/transforms/mergeJniLibs/debug/0
+2.baseType=DIRECTORY
+1.path=classes.dex

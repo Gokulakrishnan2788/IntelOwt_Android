@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:support-vector-drawable:26.0.0-beta1'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation('io.socket:socket.io-client:1.0.0') {
+        // excluding org.json which is provided by Android
+        exclude group: 'org.json', module: 'json'
+    }
+    implementation project(':intelowtandroid:owt:utils')
+    implementation files('/Users/gokulakrishnanmani/AndroidStudioProjects/IntelOwt_Android/libs/owt_base.aar')
+    implementation files('/Users/gokulakrishnanmani/AndroidStudioProjects/IntelOwt_Android/libs/owt_conference.aar')
+    implementation files('/Users/gokulakrishnanmani/AndroidStudioProjects/IntelOwt_Android/libs/webrtc/libwebrtc.jar')
+    implementation files('/Users/gokulakrishnanmani/AndroidStudioProjects/IntelOwt_Android/libs/owt_p2p.aar')
+
+//    compile (name:'owt_p2p.aar',ext:'aar');
+//    compile (name:'owt_base.aar',ext:'aar');
+//    compile (name:'owt_conference.aar',ext:'aar');
+//    compile (name:'libwebrtc.jar',ext:'jar');
+
+}
