@@ -11,10 +11,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/intelowtandroid" />
-            <option value="$PROJECT_DIR$/intelowtandroid/owt" />
-            <option value="$PROJECT_DIR$/intelowtandroid/owt/conference" />
-            <option value="$PROJECT_DIR$/intelowtandroid/owt/p2p" />
-            <option value="$PROJECT_DIR$/intelowtandroid/owt/utils" />
+            <option value="$PROJECT_DIR$/intelowtandroid/src" />
+            <option value="$PROJECT_DIR$/intelowtandroid/src/conference" />
+            <option value="$PROJECT_DIR$/intelowtandroid/src/p2p" />
+            <option value="$PROJECT_DIR$/intelowtandroid/src/utils" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

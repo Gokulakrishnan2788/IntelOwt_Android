@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: ./libs/owt_p2p.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b46a07f54d5f35c6e494cca4242c29d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b46a07f54d5f35c6e494cca4242c29d/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -3,11 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/IntelOwt_Android.iml" filepath="$PROJECT_DIR$/IntelOwt_Android.iml" group="IntelOwt_Android" />
-      <module fileurl="file://$PROJECT_DIR$/intelowtandroid/owt/conference/conference.iml" filepath="$PROJECT_DIR$/intelowtandroid/owt/conference/conference.iml" group="IntelOwt_Android/intelowtandroid/owt/conference" />
-      <module fileurl="file://$PROJECT_DIR$/intelowtandroid/intelowtandroid.iml" filepath="$PROJECT_DIR$/intelowtandroid/intelowtandroid.iml" group="IntelOwt_Android/intelowtandroid" />
-      <module fileurl="file://$PROJECT_DIR$/intelowtandroid/owt/owt.iml" filepath="$PROJECT_DIR$/intelowtandroid/owt/owt.iml" group="IntelOwt_Android/intelowtandroid/owt" />
-      <module fileurl="file://$PROJECT_DIR$/intelowtandroid/owt/p2p/p2p.iml" filepath="$PROJECT_DIR$/intelowtandroid/owt/p2p/p2p.iml" group="IntelOwt_Android/intelowtandroid/owt/p2p" />
-      <module fileurl="file://$PROJECT_DIR$/intelowtandroid/owt/utils/utils.iml" filepath="$PROJECT_DIR$/intelowtandroid/owt/utils/utils.iml" group="IntelOwt_Android/intelowtandroid/owt/utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/intelowtandroid/src/conference/conference.iml" filepath="$PROJECT_DIR$/.idea/modules/intelowtandroid/src/conference/conference.iml" group="IntelOwt_Android/intelowtandroid/src/conference" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/intelowtandroid/intelowtandroid.iml" filepath="$PROJECT_DIR$/.idea/modules/intelowtandroid/intelowtandroid.iml" group="IntelOwt_Android/intelowtandroid" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/intelowtandroid/src/p2p/p2p.iml" filepath="$PROJECT_DIR$/.idea/modules/intelowtandroid/src/p2p/p2p.iml" group="IntelOwt_Android/intelowtandroid/src/p2p" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/intelowtandroid/src/src.iml" filepath="$PROJECT_DIR$/.idea/modules/intelowtandroid/src/src.iml" group="IntelOwt_Android/intelowtandroid/src" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/intelowtandroid/src/utils/src-utils.iml" filepath="$PROJECT_DIR$/.idea/modules/intelowtandroid/src/utils/src-utils.iml" group="IntelOwt_Android/intelowtandroid/src/utils" />
     </modules>
   </component>
 </project>
