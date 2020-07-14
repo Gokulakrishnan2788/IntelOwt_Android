@@ -7,7 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/intelowtandroid/intelowtandroid.iml" filepath="$PROJECT_DIR$/.idea/modules/intelowtandroid/intelowtandroid.iml" group="IntelOwt_Android/intelowtandroid" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/intelowtandroid/src/p2p/p2p.iml" filepath="$PROJECT_DIR$/.idea/modules/intelowtandroid/src/p2p/p2p.iml" group="IntelOwt_Android/intelowtandroid/src/p2p" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/intelowtandroid/src/src.iml" filepath="$PROJECT_DIR$/.idea/modules/intelowtandroid/src/src.iml" group="IntelOwt_Android/intelowtandroid/src" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/intelowtandroid/src/utils/src-utils.iml" filepath="$PROJECT_DIR$/.idea/modules/intelowtandroid/src/utils/src-utils.iml" group="IntelOwt_Android/intelowtandroid/src/utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/intelowtandroid/src/utils/utils.iml" filepath="$PROJECT_DIR$/.idea/modules/intelowtandroid/src/utils/utils.iml" group="IntelOwt_Android/intelowtandroid/src/utils" />
     </modules>
   </component>
 </project>
